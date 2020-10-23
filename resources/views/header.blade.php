@@ -18,7 +18,7 @@
           <a class="nav-link" href="/">Home</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Orders</a>
+          <a class="nav-link" href="myorders">Orders</a>
         </li>
         <form action="search" class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2 search-box w-auto" name="query" type="search" placeholder="Search" aria-label="Search">
@@ -41,6 +41,9 @@
         @else
           <li class="nav-item">
             <a class="nav-link" href="/login">Login</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/register">Register</span></a>
           </li>  
         @endif
         <!-- Dropdown -->
